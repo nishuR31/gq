@@ -5,7 +5,7 @@
   "description": "Powerful GitHub Search CLI — search code, repos, issues, PRs, commits, users, and topics directly from your terminal",
   "type": "module",
   "bin": {
-    "gq": "bin/gq.sh"
+    "gq": "dist/index.js"
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
