@@ -1,0 +1,30 @@
+{
+  "name": "gq",
+  "version": "2.0.0",
+  "private": false,
+  "description": "Powerful GitHub Search CLI — search code, repos, issues, PRs, commits, users, and topics directly from your terminal",
+  "type": "module",
+  "bin": {
+    "gq": "bin/gq.sh"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "bun src/index.ts",
+    "start": "bun dist/index.js",
+    "gq": "bash bin/gq.sh"
+  },
+  "keywords": [
+    "github",
+    "search",
+    "cli",
+    "code-search",
+    "gh",
+    "developer-tools"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
